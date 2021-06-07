@@ -1,0 +1,62 @@
+name: book_app
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+ 
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+   
+  cupertino_icons: ^1.0.0
+  email_validator: ^1.0.4
+  cloud_firestore: 
+  firebase_core: 
+  firebase_auth: 
+  provider: 
+  image_picker: 
+  image_cropper: ^1.2.2
+  firebase_storage: 
+  permission_handler:
+  fluttertoast: 
+  google_maps_flutter: ^0.5.11
+  geolocator: ^5.3.1
+  location: 
+  google_maps_webservice: ^0.0.16
+  cached_network_image: ^2.3.2+1
+   
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+ 
+flutter:
+
+   
+  uses-material-design: true
+  assets:
+    - images/profile.png
+    - images/spinner.gif       
+
+
+
+  fonts:
+    - family: Poppins-Regular
+      fonts:
+        - asset: fonts/Poppins-Regular.ttf
+        
+    - family: Poppins-Bold
+      fonts:
+        - asset: fonts/Poppins-Bold.ttf
+
+     
+
+  
